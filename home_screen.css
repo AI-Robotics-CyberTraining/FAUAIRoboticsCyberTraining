@@ -52,7 +52,7 @@ body {
   font-size: clamp(1rem, 2.5vw, 1.4rem);
   color: antiquewhite;
   line-height: 1.5;
-  max-width: 3000px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -73,14 +73,14 @@ body {
   max-height:50px;
 }
 .alt-banner-title{
-  font-size: clamp(1rem, 1vw, 1rem);
+  font-size: clamp(2.5rem, 2.5vw, 2.5rem);
   color: antiquewhite;
   position: left;
   margin: 0 auto;
 }
 
 .alt-banner-logo {
-  height: 25px;
+  height: 50px;
   width: auto;
   margin-bottom: 2rem;
 }
@@ -178,6 +178,14 @@ body {
 
 .web-button:hover {
   background: #cc0000;
+}
+
+.web-button.disabled {
+  background: #888;
+  cursor: not-allowed;
+}
+.web-button.disabled:hover {
+  background: #888;
 }
 
 /* Phones: stack everything and drop the side space */
