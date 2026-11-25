@@ -109,3 +109,20 @@
   border-radius: 12px;
   color: #666;
 }
+
+/* List for seminar, I kept the boc and table program incase people wanted to swap looks */
+.seminar-list {
+  max-width: 700px;
+  margin: 0 0 2rem 0;
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+
+.seminar-list li {
+  margin-bottom: 0.75rem;
+}
+
+.seminar-label {
+  font-weight: 700;
+  color: #003366;
+}
