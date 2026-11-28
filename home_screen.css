@@ -25,7 +25,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .banner-tag {
   display: inline-block;
   padding: 0.35rem 1.25rem;
@@ -37,7 +36,6 @@ body {
   margin-bottom: 1.25rem;
   backdrop-filter: blur(4px);
 }
-
 .banner-title {
   font-size: clamp(2.5rem, 8vw, 5.5rem);
   font-weight: 500;
@@ -47,7 +45,6 @@ body {
   letter-spacing: -0.05em;
   text-transform: capitalize;
 }
-
 .banner-subtitle {
   font-size: clamp(1rem, 2.5vw, 1.4rem);
   color: antiquewhite;
@@ -55,13 +52,30 @@ body {
   max-width: 700px;
   margin: 0 auto;
 }
-
 .banner-logo {
   height: 90px;
   width: auto;
   margin-bottom: 2rem;
 }
+.banner-seperator{
+  width: 95px;
+  height: 4px;
+  margin: 1.25rem auto;
+  border: 0;
+  background-color: #e0a93b;
+}
+.banner-supporttitle{
+  margin: 1.5rem 0 0.5rem 0;
+  color:#9fb3c8;
+  font-size: 0.75rem;
+}
+.banner-award{
+  color:#e0a93b;
+  font-weight: 700;
+  text-decoration: none;
+}
 
+/* Alt Banner theme*/
 .alt-banner-theme{
   align-items: normal;
   text-align:left; 
